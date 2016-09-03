@@ -1,10 +1,10 @@
 /*
-* Primer-UI v0.0.1 (2016)
+* Primer-UI Grids v0.0.1 (2016)
 * Written By: Shikher Aatrey
 * Licensed under MIT
  */
 
-
+/*-- main container --*/
 .primer-container {
 	width: 100%;
 	max-width: 1200px;
@@ -28,7 +28,7 @@
 	padding: 12px;
 }
 
-/*-- some extra individual column widthing --*/
+/*-- some extra individual column widthing (6 columns) --*/
 .col-1 { width: 16.66%; }
 .col-2 { width: 33.33%; }
 .col-3 { width: 50%; }
@@ -51,6 +51,8 @@
 }
 
 /*-- the responsive hack --*/
+
+/* for devices under 800px */
 @media all and (max-width: 800px) {
 	.col-1 { width: 33.33%; }
 	.col-2 { width: 50%; }
@@ -63,10 +65,22 @@
 		width: 100%;
 	}
 
-	.row .col-5 ~ col-1 {
+	.row .col-5 ~ .col-1 {
 		width: 100%;
 	}
 }
+
+/* for devices under 650px */
+@media all and (max-width: 650px) {
+	.col-1 { width: 50%; }
+	.col-2 { width: 100%; }
+	.col-3 { width: 100%; }
+	.col-4 { width: 100%; }
+	.col-5 { width: 100%; }
+	.col-6 { width: 100%; }
+}
+
+/* FIN */
 
 
 
