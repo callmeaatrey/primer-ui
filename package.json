@@ -1,0 +1,26 @@
+{
+  "name": "primer-ui",
+  "version": "0.1.0",
+  "description": "A self-tailored front-end framework. Launched with CSS Grids (6 columns). More to come ahead!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmeaatrey/primer-ui.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Shikher Aatrey <shikher.a@gmail.com> (http://github.com/callmeaatrey)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callmeaatrey/primer-ui/issues"
+  },
+  "homepage": "https://github.com/callmeaatrey/primer-ui#readme",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-cssmin": "1.0.2"
+  }
+}
